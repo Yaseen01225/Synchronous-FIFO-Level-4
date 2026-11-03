@@ -1,0 +1,1 @@
+The acceptance rules are explicit and visible as outputs. At full, a simultaneous read/write request accepts the read but rejects the write; at empty, simultaneous requests accept the write but reject the read. This avoids ambiguous same-edge boundary policies.
